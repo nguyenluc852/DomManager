@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.manager_dormitory.ManagerDormitoryApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.73 s - in com.manager_dormitory.ManagerDormitoryApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.607 s - in com.manager_dormitory.ManagerDormitoryApplicationTests

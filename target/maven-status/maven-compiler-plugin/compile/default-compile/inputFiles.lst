@@ -1,5 +1,6 @@
 /Users/lucnv1/Working/DomManager/src/main/java/com/manager_dormitory/entity/Token.java
 /Users/lucnv1/Working/DomManager/src/main/java/com/manager_dormitory/config/JwtRequestFilter.java
+/Users/lucnv1/Working/DomManager/src/main/java/com/manager_dormitory/controller/TestController.java
 /Users/lucnv1/Working/DomManager/src/main/java/com/manager_dormitory/controller/AuthController.java
 /Users/lucnv1/Working/DomManager/src/main/java/com/manager_dormitory/service/impl/UserServiceImpl.java
 /Users/lucnv1/Working/DomManager/src/main/java/com/manager_dormitory/repository/TokenRepository.java

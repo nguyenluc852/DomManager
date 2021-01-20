@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.manager_dormitory.config.JwtUtil;
 import com.manager_dormitory.config.UserPrincipal;
@@ -50,9 +51,8 @@ public class AuthController {
         return ResponseEntity.ok(token.getToken());
     }
     
-    @GetMapping("/hello")
-    @PreAuthorize("hasAnyAuthority('USER_READ')")
-    public ResponseEntity hello() {
-        return ResponseEntity.ok("hello");
+    @GetMapping
+    public String hello() {
+        return "index";
     }
 }
